@@ -1,0 +1,8 @@
+Python==3.10.9
+torch==2.1.1
+CUDA available: True, CUDA version: 12.1
+transformers==4.40.0
+pandas==1.5.3
+numpy==1.23.5
+scikit-learn>=0.24.0
+argparse>=1.4.0
