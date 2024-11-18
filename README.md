@@ -21,10 +21,10 @@ This repository contains the code for our paper All You Need is Attention: Light
 ## Use LADAM
 
     # Execute LADAM for text augmentation
-    python ladam.py -d dataset -m model
+    python ladam.py -d dataset -n n_aug
     
     # Training
-    python train.py -d dataset -n n_aug
+    python train.py -d dataset -m model
 
 `-d` : `dataset` should be file name of dataset (e.g. CR.csv)
 
